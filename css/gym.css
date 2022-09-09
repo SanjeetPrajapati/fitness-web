@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(238, 252, 129);
+    background-image: linear-gradient(to right, rgb(244, 164, 73), rgb(91, 197, 250));
+}
+
+h1 {
+    /* padding-left: 45%; */
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 10vh;
+    text-shadow: 5px 3px rgb(251, 148, 22);
+    text-decoration-line: underline;
+
+}
+
+button {
+    float: right;
+    margin-right: 5vw;
+    margin-top: -5vh;
+    font-size: xx-large;
+    text-decoration-line: none;
+}
+
+button a {
+    text-decoration-line: none;
+}
+
+img {
+    width: 70%;
+    /* height: 500%; */
+
+    margin-left: 10vw;
+    padding: 5vh;
+
+}
+
+.relative button {
+    float: left;
+    margin-right: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: xx-large;
+
+
+}
+

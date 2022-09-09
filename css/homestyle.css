@@ -1,0 +1,257 @@
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+nav,
+header {
+    background-color: rgb(203, 249, 234);
+}
+
+header {
+    display: flex;
+}
+
+main {
+    height: 330vh;
+    background-image: url("sticky.jpg");
+
+}
+
+header h1 {
+    margin-left: 17vw;
+    font-size: 10vh;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: lighter;
+    color: orangered;
+    text-decoration: underline solid black;
+}
+
+.logo {
+    height: 30vh;
+}
+
+.men img {
+    height: 23vh;
+    margin-left: 17vw;
+}
+
+.men a {
+    margin-left: -9vw;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.men :hover {
+    color: rgb(223, 76, 12);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    width: fit-content;
+}
+
+nav {
+    display: flex;
+}
+
+
+
+.navigation {
+    margin-top: 2vh;
+}
+
+.navigation a {
+    padding: 2vw;
+    margin-left: 1.5vw;
+    text-decoration: none;
+
+}
+
+.navigation :hover {
+    color: rgb(231, 93, 47);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.mic a img {
+    height: 3vh;
+    margin-left: -4vw;
+    margin-top: 2.5vh;
+}
+
+.icon a img {
+    height: 3vh;
+    margin-left: -2vw;
+    margin-top: 2.5vh;
+}
+
+.search input {
+    margin-left: 7vw;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    width: 25vw;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+
+}
+
+hr {
+    margin: 0px 0px 0px 0px;
+}
+
+.profile img {
+    height: 60vh;
+    border-radius: 50%;
+    margin-left: 3vw;
+
+}
+
+main h3,
+h1 {
+    color: yellow;
+    margin-left: 3vw;
+
+}
+
+article {
+    border: 2px solid black;
+    display: flex;
+    height: 30vh;
+    width: 20vw;
+    overflow-x: scroll;
+    margin-top: -70vh;
+    margin-left: 70vw;
+    color: yellow;
+    font-size: 4vh;
+    background-color: rgb(230, 13, 13);
+    padding: 15px;
+}
+
+.social img {
+    height: 7vh;
+    border-radius: 50%;
+    padding: 0.7vw;
+}
+
+
+.social {
+    margin-left: 35vw;
+    margin-top: -40vh;
+    border: 2px solid black;
+    background-color: wheat;
+    width: 29vw;
+}
+
+.social :hover {
+    opacity: 0.9;
+    background-color: red;
+}
+
+h1 a {
+    margin-left: 35vw;
+    margin-top: -40vh;
+    border: 2px solid blue;
+    background-color: rgb(236, 240, 46);
+    width: 29vw;
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    background-color: aquamarine;
+}
+
+.profile :hover {
+    color: rgb(161, 247, 11);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    width: fit-content;
+    background-color: black;
+}
+
+table {
+    border: 3px solid orange;
+    width: 75vw;
+    height: 50vh;
+    padding: 2px;
+    background-color: azure;
+    margin-left: 25vh;
+
+}
+
+tr th {
+    font-size: 5vh;
+    border: 3px solid gray;
+    padding-bottom: 19px;
+    text-align: center;
+}
+
+tr td {
+    border: 3px solid rgb(178, 32, 32);
+    text-align: center;
+    font-size: 3vh;
+}
+
+.join {
+    border: 3px solid orange;
+    width: 75vw;
+    height: fit-content;
+    padding: 3vh;
+    background-color: rgb(210, 254, 178);
+    margin-left: 25vh;
+    font-size: 3vh;
+
+}
+
+.join h1 {
+    color: crimson;
+}
+
+form input,
+select {
+    margin: 3vh;
+    width: 10vw;
+    height: 2vw;
+}
+
+#full {
+    height: 5vh;
+    width: 70vw;
+
+}
+
+form button {
+    width: 25vw;
+    height: 5vh;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: 4vh;
+}
+
+ul {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    float: inline-end;
+    /* border: 3px solid red; */
+    margin-top: 25vh;
+    justify-content: center;
+    background-color: yellow;
+    height: 7vh;
+}
+
+footer li {
+    /* display: flexbox; */
+    display: inline;
+    padding: 5vw;
+   
+
+
+}
+
+li a {
+    background-color: yellow;
+    color: black;
+    font-size: 4vh;
+    text-decoration: none;
+    /* margin-top: 2vh; */
+    
+}
+li :hover{
+    color: rgb(21, 232, 10);
+}
