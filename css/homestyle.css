@@ -1,257 +1,262 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    /* height:100000vh; */
+}
 .sticky {
     position: sticky;
     top: 0;
+   
 }
 
-nav,
+/* Header */
 header {
-    background-color: rgb(203, 249, 234);
+    background: linear-gradient(135deg, #a5fdec, #bcf3e8);
+    color: rgb(216, 59, 59);
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-header {
-    display: flex;
+header .logo img {
+    height: 80px;
 }
 
+header .text-center p {
+    font-size: 2.5rem;
+    font-family: 'Alfa Slab One', sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+header .btn-primary {
+    margin-left: 15px;
+    background-color: #0a5976;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+header .btn-primary:hover {
+    background-color: #c0392b;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #ceefe0, #a5f7d5);
+    border-bottom: 3px solid #2c3e50;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #2980b9;
+    border-radius: 10px;
+}
+
+.navbar .navbar-toggler {
+    border-color: rgb(238, 238, 14);
+}
+
+/* Main Section */
 main {
-    height: 330vh;
-    background-image: url("sticky.jpg");
-
+    padding: 30px;
 }
 
-header h1 {
-    margin-left: 17vw;
-    font-size: 10vh;
-    font-family: 'Alfa Slab One', cursive;
-    font-weight: lighter;
-    color: orangered;
-    text-decoration: underline solid black;
-}
-
-.logo {
-    height: 30vh;
-}
-
-.men img {
-    height: 23vh;
-    margin-left: 17vw;
-}
-
-.men a {
-    margin-left: -9vw;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-.men :hover {
-    color: rgb(223, 76, 12);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-    width: fit-content;
-}
-
-nav {
-    display: flex;
-}
-
-
-
-.navigation {
-    margin-top: 2vh;
-}
-
-.navigation a {
-    padding: 2vw;
-    margin-left: 1.5vw;
-    text-decoration: none;
-
-}
-
-.navigation :hover {
-    color: rgb(231, 93, 47);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-}
-
-.mic a img {
-    height: 3vh;
-    margin-left: -4vw;
-    margin-top: 2.5vh;
-}
-
-.icon a img {
-    height: 3vh;
-    margin-left: -2vw;
-    margin-top: 2.5vh;
-}
-
-.search input {
-    margin-left: 7vw;
-    font-size: 1.5vw;
-    border-radius: 15px;
-    width: 25vw;
-    margin-bottom: 4vh;
-    margin-top: 2vh;
-
-}
-
-hr {
-    margin: 0px 0px 0px 0px;
-}
-
-.profile img {
-    height: 60vh;
-    border-radius: 50%;
-    margin-left: 3vw;
-
-}
-
-main h3,
-h1 {
-    color: yellow;
-    margin-left: 3vw;
-
-}
-
-article {
-    border: 2px solid black;
-    display: flex;
-    height: 30vh;
-    width: 20vw;
-    overflow-x: scroll;
-    margin-top: -70vh;
-    margin-left: 70vw;
-    color: yellow;
-    font-size: 4vh;
-    background-color: rgb(230, 13, 13);
-    padding: 15px;
-}
-
-.social img {
-    height: 7vh;
-    border-radius: 50%;
-    padding: 0.7vw;
-}
-
-
-.social {
-    margin-left: 35vw;
-    margin-top: -40vh;
-    border: 2px solid black;
-    background-color: wheat;
-    width: 29vw;
-}
-
-.social :hover {
-    opacity: 0.9;
-    background-color: red;
-}
-
-h1 a {
-    margin-left: 35vw;
-    margin-top: -40vh;
-    border: 2px solid blue;
-    background-color: rgb(236, 240, 46);
-    width: 29vw;
-    color: black;
-    text-decoration: none;
-}
-
-h1 a:hover {
-    background-color: aquamarine;
-}
-
-.profile :hover {
-    color: rgb(161, 247, 11);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-    width: fit-content;
-    background-color: black;
+main h1 {
+    font-family: 'Alfa Slab One', sans-serif;
+    color: #c8c450;
+    margin-bottom: 20px;
 }
 
 table {
-    border: 3px solid orange;
-    width: 75vw;
-    height: 50vh;
-    padding: 2px;
-    background-color: azure;
-    margin-left: 25vh;
-
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: rgb(225, 231, 237);
+    box-shadow: 0 4px 10px rgba(212, 245, 246, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-tr th {
-    font-size: 5vh;
-    border: 3px solid gray;
-    padding-bottom: 19px;
+table, th, td {
+    border: none;
     text-align: center;
 }
 
-tr td {
-    border: 3px solid rgb(178, 32, 32);
-    text-align: center;
-    font-size: 3vh;
+th, td {
+    padding: 20px;
+    font-size: 1rem;
 }
 
-.join {
-    border: 3px solid orange;
-    width: 75vw;
-    height: fit-content;
-    padding: 3vh;
-    background-color: rgb(210, 254, 178);
-    margin-left: 25vh;
-    font-size: 3vh;
-
+th {
+    background-color: #5c6e7a;
+    color: white;
 }
 
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Join Form */
 .join h1 {
-    color: crimson;
+    font-family: 'Alfa Slab One', sans-serif;
+    color:  #c8c450;
+    margin-bottom: 20px;
 }
 
-form input,
-select {
-    margin: 3vh;
-    width: 10vw;
-    height: 2vw;
+.details {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(239, 248, 250);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-#full {
-    height: 5vh;
-    width: 70vw;
-
+.details input, .details select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
 }
 
-form button {
-    width: 25vw;
-    height: 5vh;
-    justify-content: center;
-    margin-left: 10vw;
-    margin-top: 4vh;
+.details input:focus, .details select:focus {
+    border-color: #3498db;
 }
 
-ul {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    float: inline-end;
-    /* border: 3px solid red; */
-    margin-top: 25vh;
-    justify-content: center;
-    background-color: yellow;
-    height: 7vh;
+.details .radio {
+    margin-top: 20px;
 }
 
-footer li {
-    /* display: flexbox; */
+.details .radio input {
+    margin-right: 10px;
+}
+
+.details button {
+    width: 120px;
+    padding: 10px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details button[type="reset"] {
+    background-color: #e74c3c;
+}
+
+.details button:hover {
+    background-color: #2980b9;
+}
+
+.details button[type="reset"]:hover {
+    background-color: #c0392b;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.profile img {
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #3498db;
+}
+
+.profile h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+}
+
+/* Social Icons */
+.social {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.social a img {
+    height: 50px;
+    margin: 0 15px;
+    transition: transform 0.3s, filter 0.3s;
+    filter: grayscale(100%);
+}
+
+.social a img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.about-me {
+    text-align: center;
+    margin: 40px 0; /* Add some vertical spacing */
+}
+
+.about-me a {
+    color: #5834db; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5rem; /* Adjust font size as needed */
+    transition: color 0.3s ease; /* Transition effect */
+}
+
+.about-me a:hover {
+    color: #2980b9; /* Darker color on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #23231c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 3px solid #34495e;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
     display: inline;
-    padding: 5vw;
-   
-
-
+    margin: 0 20px;
 }
 
-li a {
-    background-color: yellow;
-    color: black;
-    font-size: 4vh;
+footer ul li a {
+    color: white;
     text-decoration: none;
-    /* margin-top: 2vh; */
-    
+    font-size: 1.1rem;
 }
-li :hover{
-    color: rgb(21, 232, 10);
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f2f5, #e8f0f2); /* Gradient Background */
+}
+
