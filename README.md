@@ -5,6 +5,7 @@ This project is a **frontend-only fitness website** created using **HTML** and *
 
 ## Live Demo
 To view the website, click [here](https://sanjeetprajapati.github.io/fitness-web/).
+https://sanjeetprajapati.github.io/fitness-web/
 
 ## Features
 - **Home Page**: An attractive and welcoming header with navigation to different sections.
